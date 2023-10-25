@@ -1,0 +1,603 @@
+{
+  "Members": [
+    {
+      "Name": "George Alvarez",
+      "Email": "alvarezg@nyassembly.gov"
+    },
+    {
+      "Name": "Khaleel M. Anderson",
+      "Email": "andersonk@nyassembly.gov"
+    },
+    {
+      "Name": "Joe Angelino",
+      "Email": "angelinoj@nyassembly.gov"
+    },
+    {
+      "Name": "Juan Ardila",
+      "Email": "ardilaj@nyassembly.gov"
+    },
+    {
+      "Name": "Jeffrion L. Aubry",
+      "Email": "AubryJ@nyassembly.gov"
+    },
+    {
+      "Name": "William A. Barclay",
+      "Email": "BarclayW@nyassembly.gov"
+    },
+    {
+      "Name": "Didi Barrett",
+      "Email": "barrettd@nyassembly.gov"
+    },
+    {
+      "Name": "Anil Beephan, Jr.",
+      "Email": "beephana@nyassembly.gov"
+    },
+    {
+      "Name": "Scott Bendett",
+      "Email": "bendetts@nyassembly.gov"
+    },
+    {
+      "Name": "Michael Benedetto",
+      "Email": "benedettom@nyassembly.gov"
+    },
+    {
+      "Name": "Sam Berger",
+      "Email": "FitzpatrickM@nyassembly.gov"
+    },
+    {
+      "Name": "Rodneyse Bichotte Hermelyn",
+      "Email": "bichotter@nyassembly.gov"
+    },
+    {
+      "Name": "Ken Blankenbush",
+      "Email": "blankenbushk@nyassembly.gov"
+    },
+    {
+      "Name": "Jake Blumencranz",
+      "Email": "blumencranzj@nyassembly.gov"
+    },
+    {
+      "Name": "Alex Bores",
+      "Email": "boresa@nyassembly.gov"
+    },
+    {
+      "Name": "Karl Brabenec",
+      "Email": "brabeneck@nyassembly.gov"
+    },
+    {
+      "Name": "Edward C. Braunstein",
+      "Email": "braunsteine@nyassembly.gov"
+    },
+    {
+      "Name": "Harry B. Bronson",
+      "Email": "bronsonh@nyassembly.gov"
+    },
+    {
+      "Name": "Alec Brook-Krasny",
+      "Email": "brook-krasnya@nyassembly.gov"
+    },
+    {
+      "Name": "Ari Brown",
+      "Email": "browna@nyassembly.gov"
+    },
+    {
+      "Name": "Keith P. Brown",
+      "Email": "brownk@nyassembly.gov"
+    },
+    {
+      "Name": "Chris Burdick",
+      "Email": "burdickc@nyassembly.gov"
+    },
+    {
+      "Name": "Kenny Burgos",
+      "Email": "burgosk@nyassembly.gov"
+    },
+    {
+      "Name": "Patrick Burke",
+      "Email": "burkep@nyassembly.gov"
+    },
+    {
+      "Name": "Marianne Buttenschon",
+      "Email": "buttenschonm@nyassembly.gov"
+    },
+    {
+      "Name": "Marjorie Byrnes",
+      "Email": "byrnesm@nyassembly.gov"
+    },
+    {
+      "Name": "Robert C. Carroll",
+      "Email": "CarrollR@nyassembly.gov"
+    },
+    {
+      "Name": "Monique Chandler-Waterman",
+      "Email": "chandlerwatermanm@nyassembly.gov"
+    },
+    {
+      "Name": "Lester Chang",
+      "Email": "changl@nyassembly.gov"
+    },
+    {
+      "Name": "Sarah Clark",
+      "Email": "clarks@nyassembly.gov"
+    },
+    {
+      "Name": "William Colton",
+      "Email": "ColtonW@nyassembly.gov"
+    },
+    {
+      "Name": "William Conrad",
+      "Email": "conradw@nyassembly.gov"
+    },
+    {
+      "Name": "Vivian E. Cook",
+      "Email": "CookV@nyassembly.gov"
+    },
+    {
+      "Name": "Catalina Cruz",
+      "Email": "cruzc@nyassembly.gov"
+    },
+    {
+      "Name": "Brian Cunningham",
+      "Email": "cunninghamba@nyassembly.gov"
+    },
+    {
+      "Name": "Brian Curran",
+      "Email": "curranb@nyassembly.gov"
+    },
+    {
+      "Name": "Taylor Darling",
+      "Email": "darlingt@nyassembly.gov"
+    },
+    {
+      "Name": "Maritza Davila",
+      "Email": "DavilaM@nyassembly.gov"
+    },
+    {
+      "Name": "Manny De Los Santos",
+      "Email": "delossm@nyassembly.gov"
+    },
+    {
+      "Name": "Joe DeStefano",
+      "Email": "destefanoj@nyassembly.gov"
+    },
+    {
+      "Name": "Inez E. Dickens",
+      "Email": "DickensI@nyassembly.gov"
+    },
+    {
+      "Name": "Erik M. Dilan",
+      "Email": "DilanE@nyassembly.gov"
+    },
+    {
+      "Name": "Jeffrey Dinowitz",
+      "Email": "DinowiJ@nyassembly.gov"
+    },
+    {
+      "Name": "David DiPietro",
+      "Email": "DiPietroD@nyassembly.gov"
+    },
+    {
+      "Name": "Michael Durso",
+      "Email": "dursom@nyassembly.gov"
+    },
+    {
+      "Name": "Chris Eachus",
+      "Email": "eachusc@nyassembly.gov"
+    },
+    {
+      "Name": "Simcha Eichenstein",
+      "Email": "EichensteinS@nyassembly.gov"
+    },
+    {
+      "Name": "Harvey Epstein",
+      "Email": "epsteinh@nyassembly.gov"
+    },
+    {
+      "Name": "Patricia Fahy",
+      "Email": "FahyP@nyassembly.gov"
+    },
+    {
+      "Name": "Charles D. Fall",
+      "Email": "fallc@nyassembly.gov"
+    },
+    {
+      "Name": "Michael J. Fitzpatrick",
+      "Email": "FitzpatrickM@nyassembly.gov"
+    },
+    {
+      "Name": "Ed Flood",
+      "Email": "floode@nyassembly.gov"
+    },
+    {
+      "Name": "Phara Souffrant Forrest",
+      "Email": "souffrantforrestp@nyassembly.gov"
+    },
+    {
+      "Name": "Christopher S. Friend",
+      "Email": "friendc@nyassembly.gov"
+    },
+    {
+      "Name": "Emily Gallagher",
+      "Email": "gallaghere@nyassembly.gov"
+    },
+    {
+      "Name": "Jeff Gallahan",
+      "Email": "gallahanj@nyassembly.gov"
+    },
+    {
+      "Name": "Jarett Gandolfo",
+      "Email": "gandolfoj@nyassembly.gov"
+    },
+    {
+      "Name": "Edward Gibbs",
+      "Email": "gibbse@nyassembly.gov"
+    },
+    {
+      "Name": "Jodi Giglio",
+      "Email": "giglioj2@nyassembly.gov"
+    },
+    {
+      "Name": "Joseph M. Giglio",
+      "Email": "GiglioJ@nyassembly.gov"
+    },
+    {
+      "Name": "Deborah J. Glick",
+      "Email": "GlickD@nyassembly.gov"
+    },
+    {
+      "Name": "Jessica González-Rojas",
+      "Email": "gonzalezrojasj@nyassembly.gov"
+    },
+    {
+      "Name": "Andy Goodell",
+      "Email": "goodella@nyassembly.gov"
+    },
+    {
+      "Name": "Scott Gray",
+      "Email": "grays@nyassembly.gov"
+    },
+    {
+      "Name": "Aileen M. Gunther",
+      "Email": "GuntheA@nyassembly.gov"
+    },
+    {
+      "Name": "Stephen Hawley",
+      "Email": "HawleyS@nyassembly.gov"
+    },
+    {
+      "Name": "Carl E. Heastie",
+      "Email": "Speaker@nyassembly.gov"
+    },
+    {
+      "Name": "Andrew Hevesi",
+      "Email": "HevesiA@nyassembly.gov"
+    },
+    {
+      "Name": "Pamela J. Hunter",
+      "Email": "HunterP@nyassembly.gov"
+    },
+    {
+      "Name": "Alicia Hyndman",
+      "Email": "hyndmana@nyassembly.gov"
+    },
+    {
+      "Name": "Chantel Jackson",
+      "Email": "Jacksonc@nyassembly.gov"
+    },
+    {
+      "Name": "Jonathan G. Jacobson",
+      "Email": "jacobsonj@nyassembly.gov"
+    },
+    {
+      "Name": "Kimberly Jean-Pierre",
+      "Email": "jeanpierrek@nyassembly.gov"
+    },
+    {
+      "Name": "Josh Jensen",
+      "Email": "jensenj@nyassembly.gov"
+    },
+    {
+      "Name": "Billy Jones",
+      "Email": "jonesb@nyassembly.gov"
+    },
+    {
+      "Name": "Latoya Joyner",
+      "Email": "joynerl@nyassembly.gov"
+    },
+    {
+      "Name": "Dr. Anna R. Kelles",
+      "Email": "kellesa@nyassembly.gov"
+    },
+    {
+      "Name": "Ron Kim",
+      "Email": "KimR@nyassembly.gov"
+    },
+    {
+      "Name": "Charles D. Lavine",
+      "Email": "LavineC@nyassembly.gov"
+    },
+    {
+      "Name": "Grace Lee",
+      "Email": "leeg@nyassembly.gov"
+    },
+    {
+      "Name": "John Lemondes",
+      "Email": "lemondesj@nyassembly.gov"
+    },
+    {
+      "Name": "Dana Levenberg",
+      "Email": "levenbergd@nyassembly.gov"
+    },
+    {
+      "Name": "Nikki Lucas",
+      "Email": "lucasn@nyassembly.gov"
+    },
+    {
+      "Name": "Jen Lunsford",
+      "Email": "lunsfordj@nyassembly.gov"
+    },
+    {
+      "Name": "Donna A. Lupardo",
+      "Email": "LupardoD@nyassembly.gov"
+    },
+    {
+      "Name": "William B. Magnarelli",
+      "Email": "MagnarW@nyassembly.gov"
+    },
+    {
+      "Name": "Brian Maher",
+      "Email": "maherb@nyassembly.gov"
+    },
+    {
+      "Name": "Zohran K. Mamdani",
+      "Email": "mamdaniz@nyassembly.gov"
+    },
+    {
+      "Name": "Brian Manktelow",
+      "Email": "manktelowb@nyassembly.gov"
+    },
+    {
+      "Name": "John T. McDonald III",
+      "Email": "McDonaldJ@nyassembly.gov"
+    },
+    {
+      "Name": "David G. McDonough",
+      "Email": "mcdonoughd@nyassembly.gov"
+    },
+    {
+      "Name": "John W. McGowan",
+      "Email": "mcgowanj@nyassembly.gov"
+    },
+    {
+      "Name": "Karen McMahon",
+      "Email": "mcmahonk@nyassembly.gov"
+    },
+    {
+      "Name": "Demond Meeks",
+      "Email": "meeksd@nyassembly.gov"
+    },
+    {
+      "Name": "John K. Mikulin",
+      "Email": "mikulinj@nyassembly.gov"
+    },
+    {
+      "Name": "Brian D. Miller",
+      "Email": "millerb@nyassembly.gov"
+    },
+    {
+      "Name": "Marcela Mitaynes",
+      "Email": "mitaynesm@nyassembly.gov"
+    },
+    {
+      "Name": "Angelo J. Morinello",
+      "Email": "morinelloa@nyassembly.gov"
+    },
+    {
+      "Name": "Michael J. Norris",
+      "Email": "norrism@nyassembly.gov"
+    },
+    {
+      "Name": "Michael Novakhov",
+      "Email": "novakhovm@nyassembly.gov"
+    },
+    {
+      "Name": "Daniel J. O'Donnell",
+      "Email": "OdonnellD@nyassembly.gov"
+    },
+    {
+      "Name": "Steven Otis",
+      "Email": "OtisS@nyassembly.gov"
+    },
+    {
+      "Name": "Philip A. Palmesano",
+      "Email": "palmesanop@nyassembly.gov"
+    },
+    {
+      "Name": "Amy Paulin",
+      "Email": "PaulinA@nyassembly.gov"
+    },
+    {
+      "Name": "Crystal D. Peoples-Stokes",
+      "Email": "PeopleC@nyassembly.gov"
+    },
+    {
+      "Name": "Stacey Pheffer Amato",
+      "Email": "amatos@nyassembly.gov"
+    },
+    {
+      "Name": "Sam Pirozzolo",
+      "Email": "pirozzolos@nyassembly.gov"
+    },
+    {
+      "Name": "J. Gary Pretlow",
+      "Email": "PretloJ@nyassembly.gov"
+    },
+    {
+      "Name": "Edward P. Ra",
+      "Email": "rae@nyassembly.gov"
+    },
+    {
+      "Name": "Steven Raga",
+      "Email": "ragas@nyassembly.gov"
+    },
+    {
+      "Name": "Jenifer Rajkumar",
+      "Email": "rajkumarj@nyassembly.gov"
+    },
+    {
+      "Name": "Phil Ramos",
+      "Email": "ramosp@nyassembly.gov"
+  },
+  {
+    "Name": "Michael Reilly",
+    "Email": "reillym@nyassembly.gov"
+  },
+  {
+    "name": "Karines Reyes",
+    "email": "reyesk@nyassembly.gov"
+  },
+  {
+    "name": "Jonathan Rivera",
+    "email": "riverajd@nyassembly.gov"
+  },
+  {
+    "name": "Linda B. Rosenthal",
+    "email": "RosentL@nyassembly.gov"
+  },
+  {
+    "name": "Nily Rozic",
+    "email": "RozicN@nyassembly.gov"
+  },
+  {
+    "name": "Angelo Santabarbara",
+    "email": "SantabarbaraA@nyassembly.gov"
+  },
+  {
+    "name": "Nader J. Sayegh",
+    "email": "sayeghn@nyassembly.gov"
+  },
+  {
+    "name": "Rebecca A. Seawright",
+    "email": "SeawrightR@nyassembly.gov"
+  },
+  {
+    "name": "Amanda Septimo",
+    "email": "septimoa@nyassembly.gov"
+  },
+  {
+    "name": "MaryJane Shimsky",
+    "email": "shimskym@nyassembly.gov"
+  },
+  {
+    "name": "Sarahana Shrestha",
+    "email": "shresthas@nyassembly.gov"
+  },
+  {
+    "name": "Gina L. Sillitti",
+    "email": "sillittig@nyassembly.gov"
+  },
+  {
+    "name": "Jo Anne Simon",
+    "email": "simonj@nyassembly.gov"
+  },
+  {
+    "name": "Tony Simone",
+    "email": "simonet@nyassembly.gov"
+  },
+  {
+    "name": "Matthew Simpson",
+    "email": "SimpsonM@nyassembly.gov"
+  },
+  {
+    "name": "Matt Slater",
+    "email": "slaterm@nyassembly.gov"
+  },
+  {
+    "name": "Doug Smith",
+    "email": "smithd@nyassembly.gov"
+  },
+  {
+    "name": "Robert Smullen",
+    "email": "smullenr@nyassembly.gov"
+  },
+  {
+    "name": "Michaelle C. Solages",
+    "email": "SolagesM@nyassembly.gov"
+  },
+  {
+    "name": "Phil Steck",
+    "email": "SteckP@nyassembly.gov"
+  },
+  {
+    "name": "Steve Stern",
+    "email": "sterns@nyassembly.gov"
+  },
+  {
+    "name": "Al Stirpe",
+    "email": "StirpeA@nyassembly.gov"
+  },
+  {
+    "name": "Chris Tague",
+    "email": "taguec@nyassembly.gov"
+  },
+  {
+    "name": "Michael Tannousis",
+    "email": "tannousism@nyassembly.gov"
+  },
+  {
+    "name": "Yudelka Tapia",
+    "email": "tapiay@nyassembly.gov"
+  },
+  {
+    "name": "Al Taylor",
+    "email": "taylora@nyassembly.gov"
+  },
+  {
+    "name": "Fred W. Thiele, Jr.",
+    "email": "ThieleF@nyassembly.gov"
+  },
+  {
+    "name": "Clyde Vanel",
+    "email": "vanelc@nyassembly.gov"
+  },
+  {
+    "name": "Latrice M. Walker",
+    "email": "WalkerL@nyassembly.gov"
+  },
+  {
+    "name": "Monica P. Wallace",
+    "email": "wallacem@nyassembly.gov"
+  },
+  {
+    "name": "Mary Beth Walsh",
+    "email": "walshm@nyassembly.gov"
+  },
+  {
+    "name": "Helene E. Weinstein",
+    "email": "WeinstH@nyassembly.gov"
+  },
+  {
+    "name": "David I. Weprin",
+    "email": "WeprinD@nyassembly.gov"
+  },
+  {
+    "name": "Jaime R. Williams",
+    "email": "williamsja@nyassembly.gov"
+  },
+  {
+    "name": "Carrie Woerner",
+    "email": "woernerc@nyassembly.gov"
+  },
+  {
+    "name": "John Zaccaro, Jr.",
+    "email": "zaccaroj@nyassembly.gov"
+  },
+  {
+    "name": "Kenneth Zebrowski",
+    "email": "ZebrowskiK@nyassembly.gov"
+  },
+  {
+    "name": "Stefani Zinerman",
+    "email": "zinermans@nyassembly.gov"
+  }
+]
