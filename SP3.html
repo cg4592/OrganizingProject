@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NY State Representative Email Lookup</title>
+</head>
+
+<body>
+    <label for="templateSelect">Select Email Template:</label>
+    <select id="templateSelect">
+        <option value="template1">Template 1 (Issue 1)</option>
+        <option value="template2">Template 2 (Issue 2)</option>
+        <!-- Add more template options here -->
+    </select>
+
+    <label for="customMessage">Customize Your Message:</label>
+    <textarea id="customMessage" rows="5" cols="50" placeholder="Add your personal message here..."></textarea>
+
+    <h1>NY State Representative Email Lookup</h1>
+    <label for="representativeName">Enter Representative's Name: </label>
+    <input type="text" id="representativeName" placeholder="e.g., John Doe">
+    <button id="lookupButton">Lookup Email</button>
+    <div id="result"></div>
+
+    <!-- Include your JavaScript code here -->
+    <script>
+        document.getElementById("lookupButton").addEventListener("click", function () {
+            const representativeName = document.getElementById("representativeName").value;
+            const templateId = document.getElementById("templateSelect").value; // Get selected template
+            const customMessage = document.getElementById("customMessage").value;
+
+            if (representativeName.trim() === "") {
+                document.getElementById("result").innerHTML = "Please enter a representative's name.";
+            } else {
+                lookupRepresentativeEmail(representativeName, templateId, customMessage);
+            }
+        });
+
+        function lookupRepresentativeEmail(representativeName, templateId, customMessage) {
+            fetch('reps.json') // Use the local JSON file
+                .then(response => response.json())
+                .then(data => {
+                    const representative = data.members.find(item => item.name === representativeName);
+
+                    if (representative) {
+                        const email = representative.email;
+                        const selectedTemplate = getTemplateContent(templateId);
+
+                        // Replace placeholders in the template with actual values
+                        const emailBody = selectedTemplate.replace("[REPRESENTATIVE_NAME]", representative.name)
+                            .replace("[USER_NAME]", "Your Name") // Replace with actual user name
+                            .replace("[CUSTOM_MESSAGE]", customMessage);
+
+                        document.getElementById("result").innerHTML = `Email: ${email}`;
+                        document.getElementById("composedEmail").value = emailBody; // Display the composed email
+                    } else {
+                        document.getElementById("result").innerHTML = "Representative not found in the database.";
+                    }
+                })
+                .catch(error => {
+                    console.error(error);
+                    document.getElementById("result").innerHTML = "Error occurred while fetching representative's email.";
+                });
+        }
+
+        function getTemplateContent(templateId) {
+            // Define your email templates here or load them from a server
+            const templates = {
+                "template1": "Dear [REPRESENTATIVE_NAME],\n\n[USER_NAME] supports [CUSTOM_MESSAGE]...",
+                "template2": "Hello [REPRESENTATIVE_NAME],\n\n[USER_NAME] is concerned about [CUSTOM_MESSAGE]..."
+                // Add more templates as needed
+            };
+
+            return templates[templateId];
+        }
+
+    </script>
+</body>
+
+</html>
