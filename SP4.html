@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY State Representative Email Script Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #007BFF;
+        }
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .email-content {
+            text-align: left;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>NY State Representative Email Script Generator</h1>
+    <label for="userName">Your Name:</label>
+    <input type="text" id="userName" placeholder="Your Name">
+
+    <label for="representativeName">Representative's Name:</label>
+    <input type="text" id="representativeName" placeholder="e.g., John Doe">
+
+    <label for="gradeSelect">Select Grade:</label>
+    <select id="gradeSelect">
+        <option value="6th">6th Grade</option>
+        <option value="7th">7th Grade</option>
+        <option value="8th">8th Grade</option>
+        <option value="9th">9th Grade</option>
+        <option value="10th">10th Grade</option>
+        <option value="11th">11th Grade</option>
+        <option value="12th">12th Grade</option>
+    </select>
+
+    <label for="representativeType">Select Representative Type:</label>
+    <select id="representativeType">
+        <option value="senator">Senator</option>
+        <option value="assemblymember">Assembly Member</option>
+    </select>
+
+    <label for="customMessage">Customize Your Message:</label>
+    <textarea id="customMessage" rows="5" placeholder="Add your personal message here..."></textarea>
+
+    <button id="generateButton">Generate Email</button>
+    <div id="result"></div>
+
+    <div id="composedEmail" class="email-content"></div>
+        <!-- Include your JavaScript code here -->
+   <script>
+    document.getElementById("generateButton").addEventListener("click", function () {
+        const representativeName = document.getElementById("representativeName").value;
+        const customMessage = document.getElementById("customMessage").value;
+        const userName = document.getElementById("userName").value; // Get user's name
+        const selectedGrade = document.getElementById("gradeSelect").value; // Get selected grade
+        const representativeType = document.getElementById("representativeType").value; // Get selected representative type
+
+        if (representativeName.trim() === "") {
+            document.getElementById("result").innerHTML = "Please enter a representative's name.";
+        } else {
+            const billNumber = (representativeType === 'senator') ? "S7558" : "A7743";
+            lookupRepresentativeEmail(representativeName, customMessage, userName, selectedGrade, billNumber);
+        }
+    });
+
+    function lookupRepresentativeEmail(representativeName, customMessage, userName, selectedGrade, billNumber) {
+        fetch('reps.json') // Use the local JSON file
+            .then(response => response.json())
+            .then(data => {
+                const representative = data.members.find(item => item.name === representativeName);
+
+                if (representative) {
+                    const email = representative.email;
+                    const selectedTemplate = getTemplateContent(userName); // Pass userName as an argument
+
+                    // Replace placeholders in the template with actual values
+                    let emailBody = selectedTemplate
+                        .replace("[REPRESENTATIVE_NAME]", representative.name)
+                        .replace("[USER_NAME]", userName) // Use the user's name
+                        .replace("[CUSTOM_MESSAGE]", customMessage)
+                        .replace("[GRADE]", selectedGrade) // Insert selected grade
+                        .replace("[BILL_NUMBER]", billNumber); // Insert the bill number
+
+                    // Display the composed email using a <div>
+                    document.getElementById("composedEmail").innerHTML = emailBody;
+
+                    document.getElementById("result").innerHTML = `Email: ${email}`;
+                } else {
+                    document.getElementById("result").innerHTML = "Representative not found in the database.";
+                }
+            })
+            .catch(error => {
+                console.error(error);
+                document.getElementById("result").innerHTML = "Error occurred while fetching representative's email.";
+            });
+    }
+
+    function getTemplateContent(userName) {
+        // Define your email template here
+        const template = `Dear [REPRESENTATIVE_NAME],<br><br>
+        My name is ${userName}, and I am in [GRADE] grade and live in New York. I have seen firsthand the positive impact that mental health professionals have on students who need them in school. More than that, I have seen the consequences of what happens when students are not able to access the help they need.<br><br>
+        New York public schools are currently massively understaffed in regard to mental health professionals such as school psychologists, social workers, and counselors. We desperately need to make clear what our schools and what we as students need from mental health professionals in school.<br><br>
+        Please express your support for [BILL_NUMBER], which would require the Department of Education to create mental health professional to student ratios for New York public schools to follow. This would help make sure that every student gets access to the help they need when they need it.<br><br>
+        [CUSTOM_MESSAGE]<br><br>
+        Sincerely,<br><br> ${userName}`;
+
+        return template;
+    }
+</script>
